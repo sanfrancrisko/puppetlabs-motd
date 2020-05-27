@@ -63,4 +63,8 @@ Puppet Labs modules on the Puppet Forge are open projects, and community contrib
 
 ## Contributors
 
+
+
+
+
 The list of contributors can be found at: [https://github.com/puppetlabs/puppetlabs-motd/graphs/contributors](https://github.com/puppetlabs/puppetlabs-motd/graphs/contributors).
