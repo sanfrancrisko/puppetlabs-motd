@@ -6,7 +6,7 @@ on:
 jobs:
   LitmusAcceptancePuppet6:
     env:
-      debug: true
+      DEBUG: true
     runs-on: self-hosted
     strategy:
       matrix:
