@@ -67,6 +67,7 @@ def test_motd(pp, expected_contain, filename)
   return unless os[:family] != 'windows'
   expect(file(filename)).to be_file
   expect(file(filename)).to contain expected_contain
+  expect(true).to be(false)
 end
 
 describe 'Message of the day' do
