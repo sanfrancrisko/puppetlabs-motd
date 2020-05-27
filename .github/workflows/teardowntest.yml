@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Litmus Parallel
-      uses: puppetlabs/action-litmus_parallel@master
+      uses: carabasdaniel/action-litmus_parallel@master
       with:
         platform: ${{ matrix.platform }}
         agent_family: ${{ matrix.agent_family }}
