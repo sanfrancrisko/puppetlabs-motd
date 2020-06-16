@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - 'release'
+      - 'feat/iac-870/ghactions_litmus_tear_down'
 
 jobs:
   LitmusAcceptancePuppet5:
