@@ -31,8 +31,6 @@ group :development do
   gem "puppet-lint-i18n",                                        require: false
   gem "github_changelog_generator",                              require: false if Gem::Version.new(RUBY_VERSION.dup) >= Gem::Version.new('2.2.2')
   gem "rspec-puppet",                                            require: true, git: "https://github.com/rodjek/rspec-puppet"
-  gem "github_changelog_generator",                              require: false, git: 'https://github.com/skywinder/github-changelog-generator', ref: '20ee04ba1234e9e83eb2ffb5056e23d641c7a018' if Gem::Version.new(RUBY_VERSION.dup) >= Gem::Version.new('2.2.2')
-  gem "rspec-puppet",                                            require: true, git: "https://github.com/rodjek/rspec-puppet"
   gem "puppet_litmus",                                           require: true, git: "https://github.com/puppetlabs/puppet_litmus"
   gem "bolt", '= 2.23.0'                                         if Gem::Version.new(RUBY_VERSION.dup) > Gem::Version.new('2.5.0')
 end
